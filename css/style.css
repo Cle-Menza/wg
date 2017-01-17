@@ -1,0 +1,229 @@
+body,html {
+	overflow-x:hidden;
+}
+a:active,a:focus,a:visited,button,input {
+	outline:0;
+}
+
+/* ============ main section ============*/
+section#main_sec {
+	background: url('../img/Layer-1.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	padding-top: 68px;
+}
+
+#logotype {
+	max-width: 273px;
+	max-height: 273px;
+
+}
+
+.header_text h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 49px;
+	line-height: 62px;
+	margin-top: 78px;
+	margin-bottom: 60px;
+}
+.header_text span {
+	font-weight: 700;
+}
+.header_form {
+	height: 334px;
+	width: 334px;
+	border-radius: 2px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.28), 0 0 3px rgba(0, 0, 0, 0.04);
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	
+}
+.header_form input {
+	width: 266px;
+	height: 38px;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 15px;
+	color: #227dd3;
+	padding: 10px;
+	margin-bottom: 24px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.28);
+}
+.header_form h4 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	color: #938e8e;
+	font-size: 15px;
+	margin: 24px 0 28px;
+
+}
+.header_form img {
+	max-width: 100%;
+}
+.header_form button {
+	width: 192px;
+	height: 45px;
+	background-color: #227dd3;
+	border-radius: 2px;
+	border: none;
+
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 5px;
+}
+.browser-shadow {
+	height: 334px;
+	width: 334px;
+	margin: 0 auto 0;
+	display: block;
+}
+
+/* ============ two section ============*/
+
+.two_sec_row {
+	padding-left: 160px;
+	padding-right: 140px;
+	margin-bottom: 105px;
+}
+
+#two_sec h4 {
+	color: #000;
+	font-family: Open Sans;
+	font-size: 27px;
+	font-weight: 600;
+	margin-top: 0;
+}
+#two_sec p {
+	color: #4f4e4e;
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+}
+#two_sec img {
+	float: left;
+}
+.two_sec {
+	margin-top: 60px;
+}
+
+/* ============ thee section ============*/
+
+section#three_sec {
+	background: url('../img/bg.png') no-repeat center center;
+	background-size: cover;
+	height: 1400px;
+	width: 100%;
+	padding-top: 83px;
+	
+}
+.three_sec_text h4 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #fff;
+	font-size: 39px;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+.three_sec_text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	color: #fff;
+	font-size: 14px;
+	line-height: 23px;
+}
+#img_three_sec {
+	margin-bottom: 40px;
+	width: 153px;
+}
+#three_sec_one {
+	padding: 0 240px 0;
+}
+#three_sec_one h4 {
+	margin-bottom: 40px;
+}
+#img_three_sec_two {
+	width: 272px;
+	height: 227px;
+}
+#three_sec_two {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: 324px;
+}
+#three_sec_two button {
+	width: 202px;
+	height: 57px;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	background-color: #44a36f;
+	font-family: 'Open Sans';
+	color: #fff;
+	font-size: 27px;
+	font-weight: 600;
+	margin-top: 42px;
+}
+
+
+/* ============ map section ============*/
+div#map_sec {
+	background: url('../img/map.jpg') no-repeat center center;
+	background-size: cover;
+	height: 635px;
+}
+.form_div {
+	height: 430px;
+	margin-top: 150px;
+	background: url('../img/form.png') no-repeat center center;
+}
+.form_div form {
+	margin: 110px auto 190px;
+}
+.form_div input {
+	border: 1px solid #d8d8d8;
+	width: 280px;
+	height: 40px;
+	margin-top: 5px;
+	padding-left: 20px;
+	color: #4c505d;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+}
+#message {
+	height: 80px;
+}
+.form_div button {
+	width: 67px;
+	height: 67px;
+	background-color: #43a06d;
+	border-radius: 50%;
+	border: none;
+	font-family: 'FontAwesome';
+	font-size: 38px;
+	color: #fff;
+	margin-top: 33px;
+}
+/* ============ footer section ============*/
+section#footer_sec {
+	background-color: #43a06d;
+	height: 40px;
+}
+#footer_sec h4 {
+	font-family: 'Open Sans';
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	height: 100%;
+}
